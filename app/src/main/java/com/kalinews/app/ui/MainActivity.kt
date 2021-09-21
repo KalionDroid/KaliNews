@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
 
     private var binding: ActivityMainBinding? = null
     lateinit var viewModel: NewsViewModel
+    companion object{
+        private const val TAG = "MainActivity"
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
