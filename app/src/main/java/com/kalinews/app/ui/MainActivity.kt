@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var viewModel: NewsViewModel
     companion object{
         private const val TAG = "MainActivity"
+        private const val TAG2 = "New Tag"
     }
 
 
